@@ -1,0 +1,12 @@
+-------------------------------------------------------------------------------
+Test set: com.driver.test.TestCases
+-------------------------------------------------------------------------------
+Tests run: 5, Failures: 0, Errors: 2, Skipped: 0, Time elapsed: 0.147 s <<< FAILURE! - in com.driver.test.TestCases
+testCar1  Time elapsed: 0.022 s  <<< ERROR!
+java.lang.NoSuchMethodError: 'void com.driver.Car.<init>(java.lang.String, int, int, int, boolean, java.lang.String)'
+	at com.driver.test.TestCases.testCar1(TestCases.java:33)
+
+testCar2  Time elapsed: 0.003 s  <<< ERROR!
+java.lang.NoSuchMethodError: 'void com.driver.Car.<init>(java.lang.String, int, int, int, boolean, java.lang.String)'
+	at com.driver.test.TestCases.testCar2(TestCases.java:52)
+
